@@ -54,7 +54,6 @@ public class Database {
 	}
 
 	public void InsertData() {
-		// TODO Auto-generated method stub
 		try {
 			String url="jdbc:mysql://localhost:3306/nikki";
 			Connection con=DriverManager.getConnection(url,"root","Manya@750");

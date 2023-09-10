@@ -30,7 +30,6 @@ public class Database {
      }
 
 	public void CreateTable() {
-		// TODO Auto-generated method stub
 		try {
 			String url="jdbc:mysql://localhost:3306/nikki";
 			Connection con=DriverManager.getConnection(url,"root","Manya@750");
